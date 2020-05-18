@@ -1,0 +1,52 @@
+{
+    "patients": [
+        {
+            "id": "8006d5f4-711f-42a4-a549-f8112edcfc52",
+            "name": "Jason",
+            "birthDate": "12/10/1991"
+        },
+        {
+            "id": "837eb653-8a4d-4f14-b175-9a47447a9e5f",
+            "name": "Jack",
+            "birthDate": "12/10/1992"
+        }
+    ],
+    "doctors": [
+        {
+            "id": "40a28a80-33b8-4697-9727-49f335c2ce20",
+            "name": "Dr. Stuart",
+            "specialty": "cardiologist"
+        },
+        {
+            "id": "d43fca15-1353-4e38-8909-bb8061af8e20",
+            "name": "Dr. Hoffman",
+            "specialty": "gastroenterologist"
+        }
+    ],
+    "appointments": [
+        {
+            "id": "806f5ff6-fbd5-415a-ae80-9ed295f1fbeb",
+            "date": "13/05/2020",
+            "time": "12:30",
+            "procedure": "colonoscopy",
+            "doctorRef":"d43fca15-1353-4e38-8909-bb8061af8e20",
+            "patientRef":"837eb653-8a4d-4f14-b175-9a47447a9e5f"
+        },
+        {
+            "id": "07bfbb03-9a97-4d6b-9d05-9e3f111f49ac",
+            "date": "18/05/2020",
+            "time": "16:30",
+            "procedure": "ulcer",
+            "doctorRef":"d43fca15-1353-4e38-8909-bb8061af8e20",
+            "patientRef":"837eb653-8a4d-4f14-b175-9a47447a9e5f"
+        },
+        {
+            "id": "410a8c31-485a-40a5-95a7-7b4c50f6ab73",
+            "date": "18/05/2020",
+            "time": "10:30",
+            "procedure": "ulcer",
+            "doctorRef":"d43fca15-1353-4e38-8909-bb8061af8e20",
+            "patientRef":"8006d5f4-711f-42a4-a549-f8112edcfc52"
+        }
+    ]
+}
